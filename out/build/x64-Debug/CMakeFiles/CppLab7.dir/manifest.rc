@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/ag629/CLionProjects/CppLab7/out/build/x64-Debug/CMakeFiles/CppLab7.dir/embed.manifest"

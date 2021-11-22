@@ -1,0 +1,3 @@
+C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/CMakeFiles/CppLab7.dir
+C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/CMakeFiles/rebuild_cache.dir
