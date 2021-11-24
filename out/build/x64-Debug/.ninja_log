@@ -1,3 +1,9 @@
 # ninja log v5
 1	723	6592990318974876	CMakeFiles/CppLab7.dir/main.cpp.obj	3f24b92e6549d1b9
 5	725	6592990318996628	CMakeFiles/CppLab7.dir/class.cpp.obj	bbf9d6592c6f3512
+5	675	6593572434180071	CMakeFiles/CppLab7.dir/main.cpp.obj	3f24b92e6549d1b9
+1	695	6593572434380154	CMakeFiles/CppLab7.dir/class.cpp.obj	bbf9d6592c6f3512
+695	1084	6593572438110788	CppLab7.exe	f7e0d3d70c834813
+1	511	6593572808888623	CMakeFiles/CppLab7.dir/main.cpp.obj	3f24b92e6549d1b9
+5	515	6593572808933585	CMakeFiles/CppLab7.dir/class.cpp.obj	bbf9d6592c6f3512
+516	676	6593572810306926	CppLab7.exe	f7e0d3d70c834813
