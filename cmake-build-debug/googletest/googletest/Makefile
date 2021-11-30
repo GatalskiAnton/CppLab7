@@ -37,19 +37,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ag629\CLionProjects\CppLab7
+CMAKE_SOURCE_DIR = C:\Users\ag629\CLionProjects\CppLab77
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -66,31 +66,31 @@ list_install_components\fast: list_install_components
 # Special rule for the target install/local
 install\local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install\local
 
 # Special rule for the target install/local
 install\local\fast: preinstall\fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install\local\fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install\fast: preinstall\fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install\fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,7 +100,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -109,18 +109,18 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\CMakeFiles C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest\\CMakeFiles\progress.marks
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\CMakeFiles C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\googletest\all
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\CMakeFiles 0
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\googletest\clean
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : clean
 
 # The main clean target
@@ -129,30 +129,30 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\googletest\preinstall
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\googletest\preinstall
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : depend
 
 # Convenience name for target.
 googletest\googletest\CMakeFiles\gtest.dir\rule:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest.dir\rule
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : googletest\googletest\CMakeFiles\gtest.dir\rule
 
 # Convenience name for target.
@@ -161,16 +161,16 @@ gtest: googletest\googletest\CMakeFiles\gtest.dir\rule
 
 # fast build rule for target.
 gtest\fast:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest.dir\build
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : gtest\fast
 
 # Convenience name for target.
 googletest\googletest\CMakeFiles\gtest_main.dir\rule:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest_main.dir\rule
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : googletest\googletest\CMakeFiles\gtest_main.dir\rule
 
 # Convenience name for target.
@@ -179,9 +179,9 @@ gtest_main: googletest\googletest\CMakeFiles\gtest_main.dir\rule
 
 # fast build rule for target.
 gtest_main\fast:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest_main.dir\build
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : gtest_main\fast
 
 src\gtest-all.obj: src\gtest-all.cc.obj
@@ -189,9 +189,9 @@ src\gtest-all.obj: src\gtest-all.cc.obj
 
 # target to build an object file
 src\gtest-all.cc.obj:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.obj
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : src\gtest-all.cc.obj
 
 src\gtest-all.i: src\gtest-all.cc.i
@@ -199,9 +199,9 @@ src\gtest-all.i: src\gtest-all.cc.i
 
 # target to preprocess a source file
 src\gtest-all.cc.i:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.i
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : src\gtest-all.cc.i
 
 src\gtest-all.s: src\gtest-all.cc.s
@@ -209,9 +209,9 @@ src\gtest-all.s: src\gtest-all.cc.s
 
 # target to generate assembly for a file
 src\gtest-all.cc.s:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest.dir\build.make /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest.dir\src\gtest-all.cc.s
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : src\gtest-all.cc.s
 
 src\gtest_main.obj: src\gtest_main.cc.obj
@@ -219,9 +219,9 @@ src\gtest_main.obj: src\gtest_main.cc.obj
 
 # target to build an object file
 src\gtest_main.cc.obj:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : src\gtest_main.cc.obj
 
 src\gtest_main.i: src\gtest_main.cc.i
@@ -229,9 +229,9 @@ src\gtest_main.i: src\gtest_main.cc.i
 
 # target to preprocess a source file
 src\gtest_main.cc.i:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.i
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : src\gtest_main.cc.i
 
 src\gtest_main.s: src\gtest_main.cc.s
@@ -239,9 +239,9 @@ src\gtest_main.s: src\gtest_main.cc.s
 
 # target to generate assembly for a file
 src\gtest_main.cc.s:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f googletest\googletest\CMakeFiles\gtest_main.dir\build.make /nologo -$(MAKEFLAGS) googletest\googletest\CMakeFiles\gtest_main.dir\src\gtest_main.cc.s
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : src\gtest_main.cc.s
 
 # Help Target
@@ -274,8 +274,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googletest
 .PHONY : cmake_check_build_system
 

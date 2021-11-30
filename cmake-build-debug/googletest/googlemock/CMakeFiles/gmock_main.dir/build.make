@@ -33,19 +33,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ag629\CLionProjects\CppLab7
+CMAKE_SOURCE_DIR = C:\Users\ag629\CLionProjects\CppLab77
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include googletest\googlemock\CMakeFiles\gmock_main.dir\depend.make
@@ -57,78 +57,78 @@ include googletest\googlemock\CMakeFiles\gmock_main.dir\flags.make
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.obj: googletest\googlemock\CMakeFiles\gmock_main.dir\flags.make
 googletest\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.obj: ..\googletest\googletest\src\gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj"
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.obj /Fd..\..\bin\gmock_maind.pdb /FS -c C:\Users\ag629\CLionProjects\CppLab7\googletest\googletest\src\gtest-all.cc
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.obj /Fd..\..\bin\gmock_maind.pdb /FS -c C:\Users\ag629\CLionProjects\CppLab77\googletest\googletest\src\gtest-all.cc
 <<
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.i"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ag629\CLionProjects\CppLab7\googletest\googletest\src\gtest-all.cc
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ag629\CLionProjects\CppLab77\googletest\googletest\src\gtest-all.cc
 <<
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.s"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.s /c C:\Users\ag629\CLionProjects\CppLab7\googletest\googletest\src\gtest-all.cc
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\gmock_main.dir\__\googletest\src\gtest-all.cc.s /c C:\Users\ag629\CLionProjects\CppLab77\googletest\googletest\src\gtest-all.cc
 <<
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock-all.cc.obj: googletest\googlemock\CMakeFiles\gmock_main.dir\flags.make
 googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock-all.cc.obj: ..\googletest\googlemock\src\gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj"
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\gmock_main.dir\src\gmock-all.cc.obj /Fd..\..\bin\gmock_maind.pdb /FS -c C:\Users\ag629\CLionProjects\CppLab7\googletest\googlemock\src\gmock-all.cc
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\gmock_main.dir\src\gmock-all.cc.obj /Fd..\..\bin\gmock_maind.pdb /FS -c C:\Users\ag629\CLionProjects\CppLab77\googletest\googlemock\src\gmock-all.cc
 <<
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock-all.cc.i"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\gmock_main.dir\src\gmock-all.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ag629\CLionProjects\CppLab7\googletest\googlemock\src\gmock-all.cc
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ag629\CLionProjects\CppLab77\googletest\googlemock\src\gmock-all.cc
 <<
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock-all.cc.s"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\gmock_main.dir\src\gmock-all.cc.s /c C:\Users\ag629\CLionProjects\CppLab7\googletest\googlemock\src\gmock-all.cc
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\gmock_main.dir\src\gmock-all.cc.s /c C:\Users\ag629\CLionProjects\CppLab77\googletest\googlemock\src\gmock-all.cc
 <<
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj: googletest\googlemock\CMakeFiles\gmock_main.dir\flags.make
 googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj: ..\googletest\googlemock\src\gmock_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\gmock_main.dir\src\gmock_main.cc.obj /Fd..\..\bin\gmock_maind.pdb /FS -c C:\Users\ag629\CLionProjects\CppLab7\googletest\googlemock\src\gmock_main.cc
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\gmock_main.dir\src\gmock_main.cc.obj /Fd..\..\bin\gmock_maind.pdb /FS -c C:\Users\ag629\CLionProjects\CppLab77\googletest\googlemock\src\gmock_main.cc
 <<
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock_main.dir/src/gmock_main.cc.i"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\gmock_main.dir\src\gmock_main.cc.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ag629\CLionProjects\CppLab7\googletest\googlemock\src\gmock_main.cc
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\ag629\CLionProjects\CppLab77\googletest\googlemock\src\gmock_main.cc
 <<
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock_main.dir/src/gmock_main.cc.s"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\gmock_main.dir\src\gmock_main.cc.s /c C:\Users\ag629\CLionProjects\CppLab7\googletest\googlemock\src\gmock_main.cc
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\gmock_main.dir\src\gmock_main.cc.s /c C:\Users\ag629\CLionProjects\CppLab77\googletest\googlemock\src\gmock_main.cc
 <<
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 # Object files for target gmock_main
 gmock_main_OBJECTS = \
@@ -144,25 +144,25 @@ lib\gmock_maind.lib: googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock-a
 lib\gmock_maind.lib: googletest\googlemock\CMakeFiles\gmock_main.dir\src\gmock_main.cc.obj
 lib\gmock_maind.lib: googletest\googlemock\CMakeFiles\gmock_main.dir\build.make
 lib\gmock_maind.lib: googletest\googlemock\CMakeFiles\gmock_main.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ..\..\lib\gmock_maind.lib"
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ..\..\lib\gmock_maind.lib"
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	$(CMAKE_COMMAND) -P CMakeFiles\gmock_main.dir\cmake_clean_target.cmake
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\lib.exe /nologo /machine:X86 /out:..\..\lib\gmock_maind.lib @CMakeFiles\gmock_main.dir\objects1.rsp 
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 # Rule to build all files generated by this target.
 googletest\googlemock\CMakeFiles\gmock_main.dir\build: lib\gmock_maind.lib
 .PHONY : googletest\googlemock\CMakeFiles\gmock_main.dir\build
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\clean:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock
 	$(CMAKE_COMMAND) -P CMakeFiles\gmock_main.dir\cmake_clean.cmake
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 .PHONY : googletest\googlemock\CMakeFiles\gmock_main.dir\clean
 
 googletest\googlemock\CMakeFiles\gmock_main.dir\depend:
-	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\ag629\CLionProjects\CppLab7 C:\Users\ag629\CLionProjects\CppLab7\googletest\googlemock C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\googlemock\CMakeFiles\gmock_main.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "NMake Makefiles" C:\Users\ag629\CLionProjects\CppLab77 C:\Users\ag629\CLionProjects\CppLab77\googletest\googlemock C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\googlemock\CMakeFiles\gmock_main.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : googletest\googlemock\CMakeFiles\gmock_main.dir\depend
 

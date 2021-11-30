@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ag629/CLionProjects/CppLab7/googletest/googletest/src/gtest-all.cc" "C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj"
-  "C:/Users/ag629/CLionProjects/CppLab7/googletest/googlemock/src/gmock-all.cc" "C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj"
-  "C:/Users/ag629/CLionProjects/CppLab7/googletest/googlemock/src/gmock_main.cc" "C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+  "C:/Users/ag629/CLionProjects/CppLab77/googletest/googletest/src/gtest-all.cc" "C:/Users/ag629/CLionProjects/CppLab77/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj"
+  "C:/Users/ag629/CLionProjects/CppLab77/googletest/googlemock/src/gmock-all.cc" "C:/Users/ag629/CLionProjects/CppLab77/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj"
+  "C:/Users/ag629/CLionProjects/CppLab77/googletest/googlemock/src/gmock_main.cc" "C:/Users/ag629/CLionProjects/CppLab77/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

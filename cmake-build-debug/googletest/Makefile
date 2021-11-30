@@ -37,19 +37,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ag629\CLionProjects\CppLab7
+CMAKE_SOURCE_DIR = C:\Users\ag629\CLionProjects\CppLab77
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -57,31 +57,31 @@ CMAKE_BINARY_DIR = C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
 # Special rule for the target install/local
 install\local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install\local
 
 # Special rule for the target install/local
 install\local\fast: preinstall\fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install\local\fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install\fast: preinstall\fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install\fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -91,7 +91,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	echo >nul && "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Users\ag629\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -109,18 +109,18 @@ list_install_components\fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\CMakeFiles C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest\\CMakeFiles\progress.marks
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\CMakeFiles C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\all
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\CMakeFiles 0
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\clean
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest
 .PHONY : clean
 
 # The main clean target
@@ -129,23 +129,23 @@ clean\fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\preinstall
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall\fast:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) googletest\preinstall
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest
 .PHONY : preinstall\fast
 
 # clear depends
 depend:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest
 .PHONY : depend
 
 # Help Target
@@ -170,8 +170,8 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
-	cd C:\Users\ag629\CLionProjects\CppLab7\cmake-build-debug\googletest
+	cd C:\Users\ag629\CLionProjects\CppLab77\cmake-build-debug\googletest
 .PHONY : cmake_check_build_system
 

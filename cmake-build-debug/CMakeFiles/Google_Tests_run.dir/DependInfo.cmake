@@ -8,9 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/ag629/CLionProjects/CppLab7/class.cpp" "C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/class.cpp.obj"
-  "C:/Users/ag629/CLionProjects/CppLab7/main.cpp" "C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/main.cpp.obj"
-  "C:/Users/ag629/CLionProjects/CppLab7/test.cpp" "C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/test.cpp.obj"
+  "C:/Users/ag629/CLionProjects/CppLab77/class.cpp" "C:/Users/ag629/CLionProjects/CppLab77/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/class.cpp.obj"
+  "C:/Users/ag629/CLionProjects/CppLab77/test.cpp" "C:/Users/ag629/CLionProjects/CppLab77/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/test.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 
@@ -26,8 +25,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "C:/Users/ag629/CLionProjects/CppLab7/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "C:/Users/ag629/CLionProjects/CppLab77/cmake-build-debug/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "C:/Users/ag629/CLionProjects/CppLab77/cmake-build-debug/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
